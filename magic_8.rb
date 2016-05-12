@@ -1,12 +1,14 @@
-#print a welcome message
-#get first numner
-#get operator
-#validate correct operator
-#get second number
-#print output
-#prompt to continue or exit
 
-def print_header
-  puts "Welcome to Ruby Calculator"
-  puts "__________________________"
+#get the question
+#spit out random answer
+#ablity to exit at any time
+
+@answers = {"Yes", "No", "Maybe", "Try again later"}
+
+def magic
+  puts "Welcome to the Magic 8 Ball"
+  puts "Type a question to receive an answer, type 'q' to Exit"
 end
+
+exit if gets.strip.downcase == 'q'
+asdfasdf
