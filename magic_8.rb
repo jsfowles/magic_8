@@ -2,7 +2,7 @@
 #TODO ablity to exit at any time
 
 # create a menu to give option for adding new answers
-@answers = ["Yes",] #{}"No", "Maybe", "Try again later", "Your mom"]
+@answers = ["Yes", "No", "Maybe", "Try again later", "Your mom"]
 @answers_clone = @answers.clone
 @curse = ['damn', 'bitch', 'hell', 'fuck']
 
